@@ -65,5 +65,5 @@ get_weather_button.grid(row=1, column=1, padx=10, pady=10)
 weather_label = tk.Label(weather_frame, text="", wraplength=200)
 weather_label.grid(row=2, column=0, padx=10, pady=10, columnspan=2)
 
-weather_frame.grid(row=0, column=0)
+login_frame.grid(row=0, column=0)
 root.mainloop()
