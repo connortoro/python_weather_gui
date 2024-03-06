@@ -10,6 +10,9 @@ def register():
     username = username_entry.get()
     password = password_entry.get()
     insert_user(username, password)
+    error_message.config(text="")
+    username_entry.delete(0, tk.END)
+    password_entry.delete(0, tk.END)
 
 
 def login():
